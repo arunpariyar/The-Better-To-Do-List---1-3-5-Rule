@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="assets/js/lib/jquery-3.5.1.slim.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@200;300;400;600&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="assets/css/todo.css">
+    <title> The Better 135 To-Do List</title>
+</head>
+<body>
+    
+    <div id="container">
+        <div id="topBorder"> </div>
+        <div id="container-contents">
+            <p id="motto">The Better To-Do List | The 1-3-5 Rule</p>
+            <hr>
+            <h1>Today I Will Accomplish...</h1>
+            <h2>1 Big Thing <span class="bToggle"><ion-icon class="add-outline" name="add-outline" size="large"></ion-icon></span></h2>
+            <input id="bThing" type="text" placeholder="Add Big Task">
+            <ul class="bToDoDisplay">
+                <li><span class="trash"><ion-icon class="trash-outline" name="trash-outline"></ion-icon></span> Big task here</li>
+            </ul>
+            <h2>3 Small Things <span class="mToggle"><ion-icon class="add-outline" name="add-outline" size="large"></ion-icon></span></h2>
+            <input id="mThing" type="text" placeholder="Add Medium Task">
+            <ul class="mToDoDisplay">
+                <li><span class="trash"><ion-icon class="trash-outline" name="trash-outline"></ion-icon></span> Medium task here</li>
+                <li><span class="trash"><ion-icon class="trash-outline" name="trash-outline"></ion-icon></span> Medium task here</li>
+            </ul>
+            <h2>5 Little Things <span class="lToggle"><ion-icon class="add-outline" name="add-outline" size="large"></ion-icon></span></h2>
+            <input id="lThing" type="text" placeholder="Add Little Task">
+            <ul class="lToDoDisplay">
+                <li><span class="trash"><ion-icon class="trash-outline" name="trash-outline"></ion-icon></span> Little task here</li>
+                <li><span class="trash"><ion-icon class="trash-outline" name="trash-outline"></ion-icon></span> Little task here</li>
+            </ul>           
+        </div>
+        <div id="bottomBorder"></div>
+    </div>  
+<script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>    
+<script src="assets/js/todo.js"></script>    
+</body>
+</html>
